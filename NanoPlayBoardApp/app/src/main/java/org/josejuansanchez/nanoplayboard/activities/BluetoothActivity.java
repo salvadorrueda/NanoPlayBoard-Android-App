@@ -22,7 +22,7 @@ public class BluetoothActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         if(!mBT.isBluetoothEnabled()) {
-            // Do somthing if bluetooth is disable
+            // Do something if bluetooth is disable
             // TODO
         } else {
             // Do something if bluetooth is already enable
